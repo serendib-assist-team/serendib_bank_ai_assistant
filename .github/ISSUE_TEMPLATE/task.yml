@@ -1,0 +1,64 @@
+name: Task or proposal
+description: Propose a task, feature, research activity, technical decision, bug fix, or documentation update.
+title: "[TASK] "
+labels: []
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Work type
+      description: Select the category that best describes this issue.
+      options:
+        - Task
+        - Feature proposal
+        - Technical decision
+        - Bug
+        - Research
+        - Documentation
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context and problem
+      description: Explain what needs to be done and why it matters to the project.
+      placeholder: Describe the problem, requirement, or opportunity.
+    validations:
+      required: true
+
+  - type: textarea
+    id: approach
+    attributes:
+      label: Suggested approach
+      description: Outline a possible solution or research approach. It is fine if this is not yet known.
+    validations:
+      required: false
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: List the conditions that will show this task is complete.
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies, risks, and constraints
+      description: Mention blockers, responsible components, privacy, data licensing, or zero-cost requirements.
+    validations:
+      required: false
+
+  - type: input
+    id: owner
+    attributes:
+      label: Suggested owner
+      description: Optional GitHub username of the person who may take this task.
+      placeholder: "@username"
+    validations:
+      required: false
