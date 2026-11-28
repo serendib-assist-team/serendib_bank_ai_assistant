@@ -74,9 +74,9 @@ Deadlines are at 11:59 pm on the date shown.
 
 | Date | What | Marked? |
 |---|---|---|
-| Fri 27 Nov 2026 · Session 3 | Brief and case studies released. Read the case, choose the group leader, start the AI-use log | No |
-| Before Fri 27 Nov | Contact group members, make a group chat | No |
-| Tue 1 Dec 2026 | Leader emails anjanaj@vl.nibm.lk with the leader's name, the group letter and the GitHub repository link | No |
+| Fri 27 Nov 2026 · Session 3 | Brief and case studies released. Read the case, choose the group leader, start the AI-use log | Yes |
+| Before Fri 27 Nov | Contact group members, make a group chat | Yes |
+| Tue 1 Dec 2026 | Leader emails anjanaj@vl.nibm.lk with the leader's name, the group letter and the GitHub repository link | Yes |
 | Tue 8 Dec 2026 | Project charter on the LMS (about two pages, template appears Sun 6 Dec): users and problem; scope; data source register; five competency questions; tools; architecture sketch; plan for the two checkpoints | No (feedback) |
 | Fri 11 Dec 2026 · Session 5 | Charter meeting with the lecturer, about 7 minutes per group | No (feedback) |
 | Fri 18 Dec 2026 · Session 6 | Checkpoint 1, walking skeleton: 5-minute demo on localhost. Documents in, hybrid search, an answer with a citation | No (feedback) |
